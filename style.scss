@@ -276,7 +276,13 @@ input:-webkit-autofill {
 	line-height: 2 * $a;
 	padding: $a/3;
 	padding-top: 0;
-	box-shadow: $a/5 $a/5  rgba(0,0,0,.2);
+    box-shadow: $a/5 $a/5  rgba(0,0,0,.2);
+    .description {
+        text-align: center;
+        line-height: initial;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 .snap:hover{
